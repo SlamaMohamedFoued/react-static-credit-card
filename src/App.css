@@ -1,33 +1,60 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  background-color: lightblue;
+  width: 420px;
+  height: 260px;
+  border-radius: 22px;
+  margin-top: 250px;
+  line-height: 25%;
+  background-image: url(./earth.jpg);
+  background-size: cover;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.allInfos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.PaymentCompanies {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.block {
+  padding: 10px;
+}
+
+img {
+  padding-bottom: 5px;
+}
+
+.puce {
+  display: block;
+}
+
+.infos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  text-align: right;
+  margin-left: 20px;
+}
+
+h2 {
+  text-align: right;
+  padding: 10px 15px;
+}
+
+.puce {
+  padding: 0 30px;
 }
